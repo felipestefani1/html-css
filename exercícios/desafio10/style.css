@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: fonteandroid ;
+    src: url(idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    letter-spacing: 1px;
+}
+
+main#total{
+    background-color: #02A676;
+    margin: 0px -15px;
+}
+
+h1#titulo{
+    text-align: center;
+    font-size: 35px;
+    color:white
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin: 0px 200px;
+    padding: 2px 15px;
+}
+
+
+section#cabeçalho{
+    background-image: linear-gradient(to top, #003840, #005A5B, #007369, #008C72, #02A676);
+    margin: -20px -10px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 6px black;
+}
+
+nav{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    font-family: fonteandroid;
+    color: green;
+    text-indent: 3px;
+}
+
+h2#mascote{
+    font-size: 30px;
+}
+
+h2#degra{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.377), white);
+}
+
+section#finaleira{
+    background-color: #66c4a7;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+section#video{
+    background-color: #013013;
+    padding: 20px;
+}
+
+
+
+h3{
+    background-color: #0bce56;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px 20px 0px 0px ;
+    margin: -4px -4px -4px -4px;
+    color: white;
+}
+
+footer{
+    background-color: #013013;
+    color: white;
+    text-align: center;
+    box-sizing: unset;
+    
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+:root{
+    --cor0: #F0301A;
+    --cor1: #430000;
+    --cor2: #F45300;
+
+    --fonte-padrão: 'Anton', sans-serif;
+    --fonte-texto: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+    font-family: var(--fonte-texto);
+    color: black;
+    font-weight: bolder;
+}
+
+header{
+    background-color: var(--cor0);
+    color: white;
+    font-family: var(--fonte-padrão);
+    margin-bottom: 10px;
+}
+
+header> h1{
+    text-align: center;
+    padding: 25px 10px 15px 10px
+}
+
+header> nav> a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 5px 0px 20px 15px;
+    text-align: left;
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 10px;
+    
+}

@@ -87,16 +87,26 @@ main > p{
 
 aside{
     
+    
 }
 
 aside > h2{
     padding: 15px 15px 15px 5px;
 }
 
+
 footer{
     background-color: var(--cor1);
     color: white;
     text-align: center;
     padding: 10px;
+    font-weight: lighter;
     
+}
+
+footer > a{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+
 }
